@@ -46,6 +46,14 @@ namespace MPACORE.PhoneBook.Web.Startup
                     )
                 )
                 .AddItem(
+                new MenuItemDefinition(
+                    PageNames.Persons,
+                    L("Persons"),
+                    url: "Persons",
+                    icon: "local_offer"
+                    )
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
                         L("About"),
